@@ -286,8 +286,8 @@ header.sticky{
 
 .portfolio{
     background: var(--second-bg-color);
-    
-
+    padding-bottom: 50px;
+    margin-bottom: 80px;
 }
 .Portfolio-content{
     height: 500;
@@ -308,7 +308,7 @@ header.sticky{
     border: 1px solid transparent;
     box-shadow: 0 0 5px var(--main-color);
     padding: 15px;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
     transition: all .50s ease;
 }
 .main-row{
@@ -349,7 +349,7 @@ header.sticky{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 4.2rem;
+    margin-top: 60px;
 }
 .contact-form form{
     position: relative;
@@ -508,4 +508,17 @@ form .send-btn:hover{
         --h1-font: 3rem;
         --h2-font: 2rem;
     }
+}
+
+.portfolio-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    padding: 15px;
+    border-radius: 30px;
+    transition: background 0.3s;
+}
+
+.portfolio-link:hover {
+    background: rgba(255, 255, 255, 0.1);
 }
